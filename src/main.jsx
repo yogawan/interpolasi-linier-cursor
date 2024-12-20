@@ -5,11 +5,16 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './components/utilities/App';
+import HomePage from './components/pages/HomePage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/test',
     element: <App></App>
+  },
+  {
+    path: '/',
+    element: <HomePage></HomePage>
   },
 ])
 
