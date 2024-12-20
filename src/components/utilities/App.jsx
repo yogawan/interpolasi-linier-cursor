@@ -1,7 +1,11 @@
-export default function App() {
+import React from "react";
+
+const App = () => {
     return (
-        <div>
-            <p className="font-thin font-inter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum quibusdam repellendus nulla, temporibus adipisci optio rerum explicabo quo soluta amet nam enim possimus assumenda repudiandae. Nostrum nihil adipisci nesciunt?</p>
+        <div className="flex justify-center items-center h-[100vh] bg-[#EEEEEE]">
+            <p className="font-thin text-6xl font-inter text-center">Test your components here!</p>
         </div>
-    )
-  }
+    );
+};
+
+export default App;
