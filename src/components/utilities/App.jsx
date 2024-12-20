@@ -1,12 +1,7 @@
-import React from "react";
-import HomePages from "../pages/HomePages";
-
-const App = () => {
+export default function App() {
     return (
         <div>
-            <HomePages></HomePages>
+            <p className="font-thin font-inter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum quibusdam repellendus nulla, temporibus adipisci optio rerum explicabo quo soluta amet nam enim possimus assumenda repudiandae. Nostrum nihil adipisci nesciunt?</p>
         </div>
-    );
-};
-
-export default App;
+    )
+  }
