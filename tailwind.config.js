@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         inter: ["Inter", "serif"],
       },
+      cursor: {
+        "custom": "url('/assets/cursor.png'), auto",
+      },
     },
   },
   plugins: [],
